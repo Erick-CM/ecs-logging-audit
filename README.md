@@ -20,8 +20,16 @@ https://dev.to/erickcm/getting-a-nestjs-apps-logs-into-elasticsearch-without-wri
 
 ## Install
 
-Copy `skills/ecs-logging-audit/` into your project's `.claude/skills/`
-(or `~/.claude/skills/` for all projects), open Claude Code, and say:
+[![skills.sh](https://skills.sh/b/Erick-CM/ecs-logging-audit)](https://skills.sh/Erick-CM/ecs-logging-audit)
+
+```bash
+npx skills add Erick-CM/ecs-logging-audit
+```
+
+Or manually: copy `skills/ecs-logging-audit/` into your project's
+`.claude/skills/` (or `~/.claude/skills/` for all projects).
+
+Then open Claude Code and say:
 
 > audit my logging
 
